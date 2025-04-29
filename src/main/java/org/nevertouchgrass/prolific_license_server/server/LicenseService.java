@@ -71,7 +71,7 @@ public class LicenseService {
     }
 
     public void changeLicenseKey(String userId, String newLicenseKey) {
-        licenseStore.put(userId, newLicenseKey);  // Перезаписываем ключ для пользователя
+        licenseStore.put(userId, newLicenseKey);
     }
 
 

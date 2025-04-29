@@ -10,8 +10,8 @@ Licence server for **Prolific** application. Provides generation, validation and
 
 - Java 21 (installed and available in `PATH`)
 - Gradle 8.12+ (the project already has Gradle Wrapper, you don't need to install it separately)
-- Default port: `8081`
-  spring.application.name = `prolific-license-server`
+  - Default port: `8081`
+    spring.application.name = `prolific-license-server`
 ---
 
 ### 💻 Cloning the project

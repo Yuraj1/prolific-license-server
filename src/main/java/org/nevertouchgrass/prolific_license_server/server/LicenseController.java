@@ -95,4 +95,9 @@ public class LicenseController {
         String userId = payload.get("userId");
         return ResponseEntity.ok(licenseService.isActivated(userId));
     }
+    @GetMapping("/ping")
+    public ResponseEntity<String> ping() {
+        return ResponseEntity.ok("pong");
+    }
+
 }
